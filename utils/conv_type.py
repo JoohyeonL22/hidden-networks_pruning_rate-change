@@ -66,7 +66,7 @@ class SubnetConv(nn.Conv2d):
         
         #subnet = GetSubnet.apply(self.clamped_scores, self.prune_rate)
         subnet = GetSubnet.apply(self.clamped_scores, prune_k)
-        w = self.weight * subnet #w는 업데이트되는 score에 해당
+        w = self.weight * subnet
         x = F.conv2d(x, w, self.bias, self.stride, self.padding, self.dilation, self.groups)
 
         return x
