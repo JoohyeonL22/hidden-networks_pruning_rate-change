@@ -5,7 +5,7 @@ by Vivek Ramanujan*, Mitchell Wortsman*, Aniruddha Kembhavi, Ali Farhadi, Mohamm
 arxiv link: https://arxiv.org/abs/1911.13299
 
 --------------------------------------------------------------------------------------------
-This project is based on What's hidden in a randomly weighted neural network?
+This project is based on 'What's hidden in a randomly weighted neural network?'
 
 In What's hidden in a randomly weighted neural network?, There is pruning on conv, FC layer
 There will be remained top-k% score edge and pruned other edges.
