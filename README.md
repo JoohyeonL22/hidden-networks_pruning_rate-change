@@ -14,4 +14,5 @@ So, I changed that compares with edges in other layers.
 It works on only Conv2 model.
 
 I changed code in main.py, utils/conve_type.py, models/frankle.py
+
 default setting is k=0.5. if you change pruning rate, you should change k1, k2, k3, k4, k5 to your own rate and input same pruning rate as argument.
