@@ -20,7 +20,7 @@ I changed code in 'main.py', 'utils/conv_type.py', and 'models/frankle.py'.
 - It works on only Conv2 model.
 
 # Result
-<img width="100%" src=""/>
+<img width="100%" src="https://github.com/JoohyeonL22/Light-the-Spire/assets/106375416/f46a2a45-292f-4142-a378-7ff05febfb93"/>
 
 If k value set near 0 or 1, the accuracy is better than the original method.
 
