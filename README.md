@@ -3,6 +3,10 @@
 # Changing pruning rate by comparing in all layers.
 This project is based on 'What's hidden in a randomly weighted neural network?'(Ramanujan et al.)
 
+Paper: https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE11113866&googleIPSandBox=false&mark=0&ipRange=false&accessgl=Y&language=ko_KR&hasTopBanner=true
+
+baseline arxiv link ('What's hidden in a randomly weighted neural network?'): https://arxiv.org/abs/1911.13299
+
 # A problem from original study on network pruning using edge-popup algorithm
 In 'What's hidden in a randomly weighted neural network?', There is pruning on conv, FC layer.
 
@@ -15,6 +19,11 @@ I changed code in 'main.py', 'utils/conv_type.py', and 'models/frankle.py'.
 - There will be remained top-k% score edge and be pruned other edges.
 - It works on only Conv2 model.
 
-Paper: https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE11113866&googleIPSandBox=false&mark=0&ipRange=false&accessgl=Y&language=ko_KR&hasTopBanner=true
+# Result
+<img width="100%" src=""/>
 
-baseline arxiv link ('What's hidden in a randomly weighted neural network?'): https://arxiv.org/abs/1911.13299
+If k value setted near 0 or 1, the accuracy is better than the original method.
+
+- SGD means a not pruned network.
+- ukn means use ukn as weight initalization and usc means use usc as weight initialization.
+- _ ori means original method and _ k means my own improved method.
