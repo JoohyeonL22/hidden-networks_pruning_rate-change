@@ -22,8 +22,8 @@ I changed code in 'main.py', 'utils/conv_type.py', and 'models/frankle.py'.
 # Result
 <img width="100%" src=""/>
 
-If k value setted near 0 or 1, the accuracy is better than the original method.
+If k value set near 0 or 1, the accuracy is better than the original method.
 
 - SGD means a not pruned network.
-- ukn means use ukn as weight initalization and usc means use usc as weight initialization.
+- ukn means use ukn as weight initialization  and usc means use usc as weight initialization.
 - _ ori means original method and _ k means my own improved method.
